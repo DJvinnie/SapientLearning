@@ -1,0 +1,40 @@
+precedence in which classes will be applied.
+tag, simply
+id based, include a pound sign.
+class based, include a dot.
+
+precedence... inline>>ID>>class>>tag.
+!important--> doesn't allow overriding.
+
+1 tag, can receive more than 1 class based attribute.
+class="class 1_class 2"
+order of defining classes is also important.
+
+concepts of css3:
+border radius.
+
+pseudo classes used to display similar behaviour instead of using javascript code.
+
+selector:pseudo-class{
+ property:value;
+}
+
+developer.mozilla.org/pseudo-classes -----> for more on Pseudo classes
+
+double colons for elements
+single colon for built-in methods
+
+
+> symbol denotes children. parent class > child class implies, all child class tags included in parent, will get the attributes.(not grandchildren).
+~ symbol denotes siblings.
+
+
+Canvas is a drawing API in html5. used for drawing pixels. (d3.js)
+ctx.drawIamge(x,y,width,height);
+
+storage api
+storage types:
+localstorage:accepts only strings, stores in key value pairs. close and reopen browser, storage is still persistent.
+sessionstorage
+indexedDB
+Application cache

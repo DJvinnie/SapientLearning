@@ -1,0 +1,30 @@
+note:
+
+<!DOCTYPE html> --> first line
+
+{
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="main.css"/>
+}---> include in head tag.
+
+all css files, third party javascript files go in HEAD tag.
+project folder hierarchy:
+assets(logo, images,audio,video) , scripts, styles(css files), vendor, index.html
+
+all user defined javascript files should go in BODY
+
+ordering of files, css or javascript, matters bcoz interpretor behaviour of browser.
+indentation is important
+
+structure of your code:
+in body: navigation bar goes first, with end tag. insert header and footer tags. insert nav tag in header tag.
+next, main body.(left, centre and right menu)
+after main body, footer.
+
+
+css, use class based styling not tag based styling.
+3 modes to create classes: external file preferred.
+selectors: tag, class, ID based.
+99% of the time-->class based selector, always reusable.
+ID based, only 1 element.
+tag based, only for all tags.

@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <!-- <button onclick="draw()">Draw circle</button> -->
+
+    <canvas width="800" height="800" id="canvas"></canvas>
+    <script>
+        var c = document.getElementById('canvas').getContext('2d');
+        
+        c.beginPath();
+
+        var data = [16, 68, 20, 30, 54, 22, 49];
+        for (var i = 0; i < data.length; i++) {
+            var dp = data[i];
+            c.fillRect(25 + i * 100, 400-dp*5, 2, dp*5);
+        }
+        c.fillStyle = "blue";
+        c.beginPath();
+        c.moveTo(25,10);
+        c.lineTo(25,450);
+        c.stroke();
+        c.beginPath();
+        c.moveTo(25,400);
+        c.lineTo(690,400);
+        c.stroke();
+    </script>
+</body>
+
+</html>
